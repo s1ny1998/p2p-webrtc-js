@@ -1,0 +1,19 @@
+{
+  "name": "p2p-videochat-webrtc",
+  "version": "1.0.0",
+  "description": "Video Chat between 2 systems using simple-peer",
+  "main": "main.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
+  },
+  "author": "s1ny",
+  "dependencies": {
+    "express": "^4.16.4",
+    "simple-peer": "^9.2.1",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "watchify": "^4.0.0"
+  }
+}
